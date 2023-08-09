@@ -1,0 +1,70 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ql plus",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StoreUserIDIntent",
+                    "slots": [],
+                    "samples": [
+                        "Store User ID",
+                        "Initialize Skill",
+                        "Set up skill",
+                        "Send information"
+                    ]
+                },
+                {
+                    "name": "GetRemindersIntent",
+                    "slots": [],
+                    "samples": [
+                        "Get Reminders",
+                        "Add Reminders",
+                        "Check Reminders",
+                        "Start"
+                    ]
+                },
+                {
+                    "name": "ConfirmActionIntent",
+                    "slots": [],
+                    "samples": [
+                        "I took my pills",
+                        "Prescription taken",
+                        "Joining meeting",
+                        "I have joined my meeting",
+                        "Pills taken",
+                        "Meeting scheduled",
+                        "I have contacted my doctor",
+                        "I have taken my pills",
+                        "Acknowledge action",
+                        "Acknowledge"
+                    ]
+                },
+                {
+                    "name": "DeleteRemindersIntent",
+                    "slots": [],
+                    "samples": [
+                        "Delete reminders",
+                        "Delete all reminders"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
