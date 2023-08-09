@@ -1,47 +1,86 @@
 # QL-Caretaker-Alexa-App
 
-![Project Banner](data:image/png;base64,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)
+![QL+ Logo](resources/ql.png)
 
 ## Introduction
-Describe the motivation and core idea behind the project, highlighting its relevance and main functionality.
+For my senior year, we were responsible for integrating several features into an existing application meant to help caretakers interact with their patients using Alexa Reminders, for QL+
+
+I was responsible for integrating the Alexa skill into the application, which would allow caretakers to set reminders for their patients, and have them play on their Alexa devices.
+
+Here I have uploaded the existing code for the interface I designed to respond to the Alexa skill, as well as the code for the Alexa skill itself.
 
 ## Table of Contents
 - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Technologies Used](#technologies-used)
+- [Design](#design)
+- [Setup and Installation](#setup-and-installation)
 - [Acknowledgements](#acknowledgements)
 
 ## Features
-- **Client Selection**: Explain how clients can be selected from the database.
-- **Alexa Reminders**: Detail how reminders can be added to Alexa devices.
-- **Firebase Application**: Elaborate on the custom express functions and database creation.
-- **Alexa Skill Creation**: Describe the Alexa Skill functions and skill creation.
-
-![Feature Image](link-to-feature-image)
-
-## Technologies Used
-- Firebase
-- Alexa Skills Kit
-- Express.js
-- Any other technologies
-
-## Setup and Installation
-Provide step-by-step instructions on how to set up and install the project.
+- **Client Selection**: Clients are able to be selected from the database in the caretakers application
+- **Alexa Reminders**: Reminders are able to be added in bulk to the database, and the patient will be able to hear them on their Alexa device
+- **Persistant Reminders**: Reminders repeat 3 times after the inital reminder, and if the patient doesn't acknowledge the reminder after the backups, the caretaker will be notified
+- **Firebase Application**: Extensive firebase database application to store all the reminders and client information
+- **Alexa Skill Creation**: Fully interactive Alexa skill custom built for QL+ which interacts with the firebase database
 
 ## Usage
-Include comprehensive usage examples, possibly with images or gifs showing the application in action.
+In order to allow your caretaker to have access to your Alexa reminders. All you would have to do is:
+1. Have an Alexa device
+2. Have an Amazon account
+3. Download the skill from the Alexa Skills store
+4. Allow for user permissions in the skills settings
 
-## Contributing
-Instructions for those who want to contribute to the project.
+Once you have the skill downloaded, all you have to say is:
 
-## License
-Include the license information.
+> Alexa, Initialize Skill
+
+This will send you information to the database where the caretaker will now have your name, email, phone number, and Alexa ID.
+
+Now, the caretaker will see your name pop up in their reminders app, to where they will add as any reminders as they want to your account.
+
+**This can range from taking pills, to calling your doctor, etc.**
+
+Once they have added all the reminders, they will tell you to say:
+
+> Alexa, Add Reminders
+
+This will add all of the reminders to your account as well as 3 backup remindres for each reminder
+
+Once you have completed the task at hand, let your Alexa know by saying:
+
+> Alexa, I *insert action here*
+
+After completing this, the extra reminders will be removed and you can go about your day. If you dont acknowledge the reminders in the 8 minutes during the backup reminders are valid, <span style="text-decoration: underline;">the caretaker is notified</span>
+
+
+## Technologies Used
+- Firebase firestore
+- Alexa Skills Kit
+- Express.js Firebase functions
+- React
+- Amazon Web Services
+- Expo CLI
+
+
+## Design
+![Design](resources/overview.png)
+
+**The Design of the application was split into three parts, the Alexa Skill, the Firebase Application, and the Caretaker interface.**
+
+Firstly, I began developing the Alexa skill and understanding ASK and AWS a little bit more. Creating the skill and getting it to run on the test alexa we had was the easy part. Things got difficult when it came to adding reminders to the Alexa device. Unfortunately, you can only add reminders to the Alexa device through an alexa skill if and only if you are calling the reminders API with an in-session access token. Meaning that you cannot add reminders unless the user is directly interacting with the Alexa. This is so that people with bad intentions cannot go and add thousands of reminders to an unkowning users Alexa skill, however for us, it means that the user must be more involved in the reminder-adding process, which is a big negative for us. Thankfully, once you have an in-session token, there is no limit to the amount of Reminders that you can add on behalf of a user. Following this, we then created the Firebase application.
+
+This application stored information about the user, and the reminders that the caretaker would add on behalf of them. The idea with this is that the caretaker would be able to add reminders for an extended period of time, for example up to a month out. This can be acheieved in the applications interface.  Once they add the reminders to the account, they can then prompt the patient to ask the Alexa skill to "Add Reminders". This will then add all the reminders that the caretaker added to the database to the patients Alexa device. On top of that, it will also add 3 backup remindres, set to go off 5 minutes, 7 minutes, and 8 minutes after the first reminder, as well as set an 8 minute time in the background on the firebase server. If the patient does not say "Action complete" or "I took my pills", etc., then the server will send a notification to the caretaker that the patient did not respond to the reminder, and that they should check in on them.
+
+
+## Setup and Installation
+The code provided is not able to run on its own without initializing your own Alexa Skill and establishing your own paid firebase application. However, the [Setup and Installation instructions will be provided here](resources/Setup.pdf) for those who wish to do so, or need assisting understanding ASK Reminders.
+
+The firebase functions are stored in the firebase-final folder under functions/index.js. The Alexa Skills Index is stored under the LWAFinished folder, under alexaSkillIndex.js. The React application is stored under the LWAFinished folder, under src/App.js.
+
 
 ## Acknowledgements
-Recognize the people who supported you during the project, and any other acknowledgements.
+I'd like to thank Kenneth and Yafet for designing the remainder of the application and making my integration so easy. I'd also like to thank my team for being so supportive and helpful throughout the entire process. I'd also like to thank QL+ for giving me the opportunity to work on this project and learn so much about Alexa Skills and Firebase.
 
 ---
 
